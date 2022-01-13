@@ -3,7 +3,7 @@
              }
              
              .container .row {
-                 height: 3rem;
+                 height: 4rem;
                  align-items: center;
                  width: 100%;
                  display: flex;
@@ -36,7 +36,7 @@
              }
              
              .banner .banner-container {
-                 height: 25rem;
+                 height: 23rem;
                  padding: 2rem;
                  background-image: url(../assets/image/banner.jpg);
                  background-size: 100% 100%;
@@ -80,6 +80,7 @@
              .banner .banner-container .form {
                  background: white;
                  border-radius: 6px;
+                 height: 20rem;
              }
              
              .banner .banner-container .form h3 {
@@ -109,7 +110,19 @@
              }
              
              .banner .banner-container .form .text-formfield {
-                 height: 10rem;
+                 height: 12rem;
+             }
+             
+             .banner .banner-container .form .text-formfield input {
+                 width: 80%;
+                 margin: 10px 20px;
+                 font-size: 20px;
+                 color: black;
+                 margin-bottom: 30px;
+                 border: none;
+                 border-bottom: 1px solid #a79d9d;
+                 outline: none;
+                 background: transparent;
              }
              
              .banner .banner-container .form a {
@@ -121,7 +134,7 @@
              .banner .banner-container .form .text-formfield input {
                  width: 20rem;
                  margin-top: 1rem;
-                 margin-bottom: 1rem;
+                 margin-bottom: 2rem;
                  height: 2rem;
                  display: flex;
              }
@@ -256,6 +269,7 @@
                  width: 50px;
                  display: flex;
                  border: 1px solid orange;
+                 color: orange;
              }
              
              .sublevel1 .row .sub-list-right-text .row .icon2 {
@@ -264,6 +278,7 @@
                  width: 50px;
                  display: flex;
                  border: 1px solid orange;
+                 color: orange;
              }
              
              .line {
@@ -414,11 +429,44 @@
              }
              
              .contact .container .row2 {
+                 width: 100%;
                  display: flex;
              }
              
+             .contact .container .row2 .form-left {
+                 width: 50%;
+             }
+             
              .contact .container .row2 .form-left input {
-                 display: flex;
+                 width: 80%;
+                 margin: 10px 20px;
+                 font-size: 20px;
+                 color: black;
+                 margin-bottom: 30px;
+                 border: none;
+                 border-bottom: 1px solid #a79d9d;
+                 outline: none;
+                 background: transparent;
+             }
+             
+             .contact .container .row2 .form-right {
+                 width: 50%;
+             }
+             
+             .contact .container .row2 .form-right textarea {
+                 width: 80%;
+                 margin: 1rem;
+                 font-size: 20px;
+                 resize: none;
+                 /* color: black; */
+                 border-top: none;
+                 border-right: none;
+                 border-left: none;
+                 border-image: initial;
+                 border-bottom: 1px solid rgb(167, 157, 157);
+                 outline: none;
+                 background: transparent;
+                 height: 10rem;
              }
              
              .contact .container .row3 a {
